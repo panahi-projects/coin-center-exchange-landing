@@ -4,8 +4,6 @@ This repository contains the source code for the **Coin Center Exchange Landing 
 
 ## Demo
 
-[Demo Link](https://github.com/panahi-projects/coin-center-exchange-landing/)
-
 ![Screenshot](https://github.com/panahi-projects/coin-center-exchange-landing/blob/main/public/ccex-demo.jpg)
 
 ## Technologies Used
