@@ -1,0 +1,39 @@
+.bullet-list-container {
+    position: relative;
+    padding-right: 22px;
+}
+
+.bullet-list-container::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    right: 2px;
+    width: 1.5px;
+    @apply bg-foreground;
+    /* Change this to your desired line color */
+}
+
+@media only screen and (max-width: 768px) {
+    .bullet-list-container-mobile::before {
+        right: calc(50% + 10px);
+        transform: translateX(-50%);
+    }
+}
+
+.bullet-section {
+    position: relative;
+    padding-right: 6px;
+}
+
+.bullet {
+    @apply bg-foreground;
+    width: 6px;
+    height: 6px;
+    /* Change this to your desired bullet color */
+    border-radius: 50%;
+    position: absolute;
+    right: -22px;
+    top: 0.7em;
+    /* Adjust this value to center the bullet */
+}
